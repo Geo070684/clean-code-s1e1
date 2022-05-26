@@ -50,11 +50,11 @@
 }
 
 .todo-item, .todo {
-  list-style:none;
+  list-style: none;
 }
 
 input,button {
-  outline:none;
+  outline: none;
 }
 
 button {
@@ -162,14 +162,14 @@ button.delete img:hover {
 /* Edit Task */
 
 .todo__list li input[type=text] {
-  display:none
+  display: none
 }
 
 .todo__list li.edit-mode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .todo__list li.edit-mode label {
-  display:none;
+  display: none;
 }
