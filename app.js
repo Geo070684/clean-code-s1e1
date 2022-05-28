@@ -47,8 +47,6 @@ var createNewTaskElement=function(taskString){
     deleteButton.className="delete";
     deleteButtonImg.src='./remove.svg';
     deleteButton.appendChild(deleteButtonImg);
-  
-
 
     //and appending.
     listItem.appendChild(checkBox);
@@ -72,7 +70,6 @@ var addTask=function(){
     bindTaskEvents(listItem, taskCompleted);
 
     taskInput.value="";
-
 }
 
 //Edit an existing task.
@@ -90,7 +87,6 @@ var editTask=function(){
     var containsClass=listItem.classList.contains("edit-mode");
     //If class of the parent is .editmode
     if(containsClass){
-
         //switch to .editmode
         //label becomes the inputs value.
         label.innerText=editInput.value;
@@ -110,6 +106,8 @@ var deleteTask=function(){
     console.log("Delete Task...");
 
     var listItem=this.parentNode;
+    console.log( this.parentNode);
+
     var ul=listItem.parentNode;
     //Remove the parent list item from the ul.
     ul.removeChild(listItem);
