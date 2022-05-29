@@ -47,7 +47,7 @@ var createNewTaskElement=function(taskString){
 
     deleteButton.className="todo-item__button-delete";
     deleteButtonImg.src='./remove.svg';
-    deleteButtonImg.className="todo__item__image"
+    deleteButtonImg.className="todo-item__image"
     deleteButton.appendChild(deleteButtonImg);
 
     //and appending.
@@ -83,6 +83,7 @@ var editTask=function(){
 
 
     var listItem=this.parentNode;
+    console.log(listItem)
 
     var editInput=listItem.querySelector('input[type=text]');
     var label=listItem.querySelector("label");
