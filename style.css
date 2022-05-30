@@ -34,7 +34,7 @@
   margin: 0 auto 0;
 }
 
-.task-row-wrapper__task,
+.section-for-adding__task,
 .todo-item__task {
   width: 56%;
   display: inline-block;
@@ -54,7 +54,7 @@
   list-style: none;
 }
 
-.task-row-wrapper__task,
+.section-for-adding__task,
 .todo-item__task,
 .section-for-adding__button,
 .todo-item__button-edit,
@@ -95,7 +95,7 @@
   text-transform: uppercase;
 }
 
-.task-row-wrapper__task,
+.section-for-adding__task,
 .todo-item__task + .todo-item__task {
   margin: 0;
   font-size: 18px;
@@ -109,7 +109,7 @@
   color: #888;
 }
 
-.task-row-wrapper__task:focus,
+.section-for-adding__task:focus,
 .todo-item__task + .todo-item__task:focus {
   color: #333;
 }
@@ -121,7 +121,7 @@
   margin: 0 0 20px;
 }
 
-.task-row-wrapper__task {
+.section-for-adding__task {
   width: 318px;
 }
 
